@@ -1,0 +1,7 @@
+A.11 Physical and environmental security     <- Badge readers on the server room door
+A.10 Cryptography                            <- Encrypt laptops and manage keys centrally
+A.9 Access control                           <- Multi-factor authentication for admin access
+A.12 Operations security                     <- Nightly backup of databases
+A.7 Human resource security                  <- Background check during employee onboarding
+A.15 Supplier relationships                  <- Contracts with every supplier include security clauses
+A.17 Business continuity                     <- Disaster recovery site with redundancy

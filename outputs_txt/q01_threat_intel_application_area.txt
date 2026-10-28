@@ -1,0 +1,11 @@
+Scenario : A bank notices unusual wire transfers and stolen card numbers being used at ATMs.
+Area     : Banking fraud prevention  (keyword hits: 4)
+
+Scenario : A hospital's patient records and medical devices are targeted by ransomware.
+Area     : Healthcare data protection  (keyword hits: 3)
+
+Scenario : An online store sees fake checkout attempts and refund abuse on its shopping cart.
+Area     : E-commerce fraud prevention  (keyword hits: 5)
+
+Scenario : A regional power grid operator finds probing of its SCADA network.
+Area     : Critical infrastructure protection  (keyword hits: 2)

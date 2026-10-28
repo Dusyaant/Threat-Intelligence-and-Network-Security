@@ -1,0 +1,12 @@
+index=main host=web01   -> 3 events
+index=main action=blocked -> {'host': 'fw01', 'status': 403, 'src': '203.0.113.9', 'action': 'blocked'} ...
+
+| stats count by host
+  web01   3
+  web02   2
+  fw01    2
+
+action=allowed | stats count by src
+  10.0.0.5      2
+  10.0.0.6      1
+  10.0.0.7      1

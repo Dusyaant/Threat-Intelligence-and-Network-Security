@@ -1,0 +1,10 @@
+Monitoring started (baseline: 08-18h, country IN, <=3 fails/min)
+
+[tick 1] 09:10 asha  IN OK  -> normal
+[tick 2] 09:12 ravi  IN FAIL -> normal
+[tick 3] 02:41 asha  IN OK  -> ANOMALY: off-hours login
+[tick 4] 11:05 meena RU OK  -> ANOMALY: unusual country RU
+[tick 5] 11:06 ravi  IN FAIL -> normal
+[tick 6] 11:06 ravi  IN FAIL -> normal
+[tick 7] 11:06 ravi  IN FAIL -> normal
+[tick 8] 11:06 ravi  IN FAIL -> ANOMALY: failed-login burst

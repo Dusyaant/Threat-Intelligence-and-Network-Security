@@ -1,0 +1,14 @@
+Data: 185.220.101.7      -> RAW DATA
+    [ ] Context
+    [ ] Confidence assessment
+    [ ] Actionability
+
+Data: 185.220.101.7      -> THREAT INTELLIGENCE
+    [x] Context
+    [x] Confidence assessment
+    [x] Actionability
+
+Data: evil-domain.xyz    -> RAW DATA
+    [x] Context
+    [x] Confidence assessment
+    [ ] Actionability

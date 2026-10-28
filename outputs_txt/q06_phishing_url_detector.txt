@@ -1,0 +1,11 @@
+SAFE       https://www.google.com/search?q=python
+           indicators: none
+
+PHISHING   http://192.168.10.5/secure/login/verify-account
+           indicators: ['IP-based domain', 'no HTTPS', 'suspicious keyword']
+
+PHISHING   http://secure-paypal.account.verify.update.example-login.com/confirm
+           indicators: ['excessive subdomains', 'hyphenated domain', 'no HTTPS', 'suspicious keyword']
+
+SAFE       https://github.com/anthropics
+           indicators: none

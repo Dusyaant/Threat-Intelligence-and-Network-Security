@@ -1,0 +1,6 @@
+PACKET (dport/data)                                    STRING-ONLY   CONTEXT+CONTENT
+80 GET /?q=1 UNION SELECT password FROM users          ['SQLi on web']['SQLi on web']
+25 Email body discussing how a UNION SELECT quer       ['SQLi on web']-
+53 base64:aGVsbG8=                                     ['DNS tunnelling']['DNS tunnelling']
+
+Packet 2 is a false positive for string-only matching; context-aware IDS ignores it.

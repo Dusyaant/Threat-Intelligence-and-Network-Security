@@ -1,0 +1,12 @@
+Scapy default interface: eth0
+Sniffing 5 packets (timeout 5s)...
+
+No live traffic captured in this sandbox -> analysing sample packets built with Scapy:
+  Ether / IP / UDP 192.168.1.10:53124 > 8.8.8.8:domain
+  Ether / IP / TCP 192.168.1.10:51000 > 93.184.216.34:https S
+  Ether / IP / ICMP 192.168.1.1 > 192.168.1.10 echo-request 0
+
+Total packets summarised: 3
+     192.168.1.10 -> 8.8.8.8         proto=17
+     192.168.1.10 -> 93.184.216.34   proto=6
+      192.168.1.1 -> 192.168.1.10    proto=1

@@ -1,0 +1,8 @@
+Single-log view (nothing alarming alone):
+  Firewall : allowed inbound RDP/HTTPS -> 3 events
+  Windows  : 3 failed + 1 success logon for jsmith (could be a typo-prone user)
+  VPN      : 1 successful login (normal)
+
+Correlated view:
+  *** ALERT [CRITICAL] 203.0.113.50: RDP probing (FW) + 3 failed logons then success (Windows) + VPN login (VPN)
+      => Brute-force followed by account takeover. Recommend: disable jsmith, kill VPN session, block IP.

@@ -1,0 +1,4 @@
+P1  Ransomware encrypting files on the file server
+P2  Brute force attack on VPN gateway from external IP
+P3  Port scan from internet host against DMZ
+P4  Scheduled scan completed - informational

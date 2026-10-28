@@ -1,0 +1,11 @@
+Parsed 620 requests from 9 IPs
+IP              TOTAL   PEAK/SEC  STATUS
+198.51.100.77   500     50        *** POSSIBLE DoS ***
+10.0.0.4        28      1         normal
+10.0.0.8        17      1         normal
+10.0.0.1        16      1         normal
+10.0.0.6        14      1         normal
+10.0.0.3        13      1         normal
+10.0.0.5        13      1         normal
+10.0.0.7        13      1         normal
+10.0.0.2        6       1         normal

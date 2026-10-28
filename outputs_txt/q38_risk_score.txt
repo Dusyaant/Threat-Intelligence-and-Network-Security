@@ -1,0 +1,8 @@
+RISK                              L  I  SCORE  LEVEL
+Lost USB with public flyers       4  1  4      Low
+Phishing against finance team     4  3  12     Medium
+Unpatched internet-facing server  4  4  16     High
+Ransomware on production DB       5  5  25     Critical
+Data-centre flood                 1  5  5      Low
+
+Input validation: ratings must be 1-5

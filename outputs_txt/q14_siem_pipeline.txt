@@ -1,0 +1,11 @@
+Normalized events:
+  {'source': 'firewall', 'type': 'blocked_connection', 'ip': '203.0.113.50', 't': 100}
+  {'source': 'windows', 'type': 'login_failure', 'ip': '203.0.113.50', 't': 101}
+  {'source': 'windows', 'type': 'login_failure', 'ip': '203.0.113.50', 't': 102}
+  {'source': 'windows', 'type': 'login_failure', 'ip': '203.0.113.50', 't': 103}
+  {'source': 'linux', 'type': 'login_failure', 'ip': '203.0.113.50', 't': 104}
+  {'source': 'windows', 'type': 'login_success', 'ip': '203.0.113.50', 't': 106}
+
+Correlation + alerting:
+  *** ALERT [HIGH]: 203.0.113.50 - 4 failures then a success across 3 sources ['firewall', 'linux', 'windows']
+      -> possible account compromise via brute force

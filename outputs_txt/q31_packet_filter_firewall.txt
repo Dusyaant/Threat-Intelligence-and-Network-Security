@@ -1,0 +1,7 @@
+PACKET                      GOOD ORDER            BAD ORDER (allow-all first)
+tcp/443 from 8.8.8.8       ALLOW (rule 3)        ALLOW (rule 1)
+tcp/22 from 10.0.0.4      ALLOW (rule 2)        ALLOW (rule 1)
+tcp/22 from 203.0.113.9   DENY (rule 1)         ALLOW (rule 1)
+udp/161 from 8.8.4.4       DENY (default-deny)   DENY (default-deny)
+
+Unmatched UDP/161 -> default-deny in the good set. Ordering matters: rule 1 of the bad set lets the attacker in.

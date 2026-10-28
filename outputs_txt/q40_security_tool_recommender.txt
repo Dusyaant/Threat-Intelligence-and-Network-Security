@@ -1,0 +1,6 @@
+Nmap                        <- I need to find open ports and do network discovery
+Wireshark                   <- Capture and analyze packets from the network traffic
+Nessus / OpenVAS            <- Run a vulnerability scan to find CVEs on servers
+Burp Suite                  <- Test a web application for SQL injection
+Autopsy / FTK               <- Perform forensic analysis of a disk image
+Splunk / ELK                <- Search logs and build a SIEM dashboard

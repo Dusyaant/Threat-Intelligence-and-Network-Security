@@ -1,0 +1,7 @@
+#  SRC                   DST                   DECISION
+1  10.0.0.5:50000        93.184.216.34:443     ALLOW (outbound, state recorded)
+2  93.184.216.34:443     10.0.0.5:50000        ALLOW (return traffic matches state table)
+3  203.0.113.9:4444      10.0.0.5:22           BLOCK (unsolicited inbound)
+4  93.184.216.34:443     10.0.0.5:50001        BLOCK (unsolicited inbound)
+
+State table: {('93.184.216.34', 443, '10.0.0.5', 50000, 'TCP')}

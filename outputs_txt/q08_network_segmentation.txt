@@ -1,0 +1,6 @@
+Attacker compromises: guest-laptop (Guest-WiFi, low trust)
+
+Flat network (no segmentation) can reach : ['db-server', 'hr-pc', 'web-server']
+Segmented network (policy enforced)      : ['web-server']
+
+Direct Guest-WiFi -> Database allowed? False  => BLOCKED by segmentation policy

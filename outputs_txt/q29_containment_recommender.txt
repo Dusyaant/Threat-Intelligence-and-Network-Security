@@ -1,0 +1,14 @@
+Incident : Ransomware is spreading from an infected workstation laterally to file servers
+Contain  : Isolate host from network (quarantine VLAN)
+
+Incident : A user's stolen password was used after a phishing email
+Contain  : Disable/reset compromised account & revoke sessions
+
+Incident : Web server hit by a DDoS flood from a botnet
+Contain  : Block malicious IPs/domains at firewall, enable rate limiting/CDN
+
+Incident : A cloud bucket with customer data is publicly exposed
+Contain  : Remove public exposure & rotate keys
+
+Incident : An employee is copying files to a USB drive before leaving
+Contain  : Revoke access, preserve evidence, involve HR/legal

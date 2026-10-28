@@ -1,0 +1,9 @@
+1) HYPOTHESIS-BASED: 'Office apps spawning PowerShell indicate macro malware'
+   HIT: pc1 winword.exe -> powershell.exe
+
+2) INTELLIGENCE-BASED: search for IOCs from a threat feed
+   HIT: pc1 contacted known-bad IP 198.51.100.23
+   HIT: pc5 contacted known-bad IP 203.0.113.99
+
+3) ANALYTICS-BASED: statistical outliers in bytes sent
+   HIT: pc5 sent 950000 bytes (z-score 2.24) -> possible exfiltration

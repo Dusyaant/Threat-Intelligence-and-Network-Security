@@ -1,0 +1,8 @@
+Description: Report on geopolitical trends and business impact for the board and CEO.
+  -> Strategic  {'Strategic': 5, 'Tactical': 0, 'Operational': 0}
+
+Description: List of attacker TTPs mapped to MITRE with detection rules for SOC analysts.
+  -> Tactical  {'Strategic': 0, 'Tactical': 4, 'Operational': 0}
+
+Description: Details of an ongoing campaign and attacker infrastructure for incident responders and threat hunters.
+  -> Operational  {'Strategic': 0, 'Tactical': 0, 'Operational': 4}

@@ -1,0 +1,2 @@
+BRUTE FORCE: 5 failures then SUCCESS for 'admin' from 203.0.113.7 at Oct 26 10:00:12
+No brute-force pattern for 'alice'

@@ -1,0 +1,9 @@
+Checking draft policy...
+
+  [PASS] Scope
+  [PASS] Roles and responsibilities
+  [PASS] Enforcement
+  [MISSING] Review cycle
+  [MISSING] Approval authority
+
+Result: Missing -> Review cycle, Approval authority

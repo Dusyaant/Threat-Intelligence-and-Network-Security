@@ -1,0 +1,5 @@
+Phishing                  (3 hits) <- An employee clicked a malicious link in an email and entered credentials on a fake page.
+Unpatched vulnerability   (4 hits) <- Attackers used a known vulnerability (CVE-2021-44228) on an unpatched server.
+Misconfiguration          (2 hits) <- A cloud storage bucket was left with public access due to a permissive policy.
+Insider threat            (3 hits) <- A disgruntled employee copied customer data before resigning.
+Supply-chain compromise   (2 hits) <- A trojanised update from a third-party vendor reached all customers.

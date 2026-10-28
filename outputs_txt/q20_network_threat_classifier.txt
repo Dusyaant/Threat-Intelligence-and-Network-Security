@@ -1,0 +1,4 @@
+Phishing            <- Users received a spoofed email with a fake login page asking for credentials.
+DoS/DDoS            <- The website became unavailable after a flood of SYN requests from a botnet.
+Malware             <- Files were encrypted and a ransomware note appeared on infected machines.
+Man-in-the-Middle   <- An attacker on the cafe Wi-Fi used ARP spoofing to intercept traffic; users saw a certificate warning.

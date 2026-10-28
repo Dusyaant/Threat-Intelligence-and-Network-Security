@@ -1,0 +1,7 @@
+Improvement areas found in report:
+
+  [X] Patch management     matched: ['patch', 'outdated']
+  [X] Security awareness   matched: ['training', 'staff']
+  [X] Monitoring           matched: ['siem', 'alert', 'logging', 'detection']
+  [X] Backup strategy      matched: ['backup', 'restore']
+  [X] Access control       matched: ['least privilege', 'mfa', 'privilege']

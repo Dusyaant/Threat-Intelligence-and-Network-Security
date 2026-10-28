@@ -1,0 +1,9 @@
+CONTROL                 REQUIRED  CURRENT   RESULT
+min_password_length     12        8         FAIL
+mfa_enabled             True      True      PASS
+disk_encryption         True      False     FAIL
+firewall_enabled        True      True      PASS
+patch_age_days_max      30        45        FAIL
+log_retention_days      90        90        PASS
+
+Compliance: 3/6  Failing controls: ['min_password_length', 'disk_encryption', 'patch_age_days_max']

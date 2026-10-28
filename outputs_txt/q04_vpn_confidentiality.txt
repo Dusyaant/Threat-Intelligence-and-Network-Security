@@ -1,0 +1,6 @@
+Sender plaintext      : Payroll file: user=admin pass=S3cret!
+Captured in transit   : ab795fd4385672d329e027ded5fd3cb32159b58031be5e87d0269e40f302a10ded7882210a
+Attacker (wrong key)  : 2\u07ff\ufffd\u01a0\ufffdaGp\ufffd\ufffdY5\ufffd)86\ufffd\ufffdu\ufffd)\ufffd\ufffd\ufffd\x08\ufffd3\x12\x16\ufffd\ufffd\ufffdu\ufffd
+Receiver (shared key) : Payroll file: user=admin pass=S3cret!
+
+Conclusion: traffic is unreadable without the shared key -> confidentiality.

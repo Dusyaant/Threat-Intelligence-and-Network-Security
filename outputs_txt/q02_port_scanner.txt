@@ -1,0 +1,7 @@
+Scanning 127.0.0.1 ports 1-1024 and 3306, 8080 ...
+
+PORT    STATE   SERVICE
+3306    open    MySQL
+8080    open    HTTP-Alt
+
+Total open ports found: 2

@@ -1,0 +1,10 @@
+[Logstash] parsed 5 events. Sample:
+  {'ip': '192.168.1.10', 'ts': '26/Oct/2026:10:01:02', 'method': 'GET', 'path': '/index.html', 'status': '200', 'bytes': '512'}
+
+[Elasticsearch] search status:401 -> ['doc1: /login from 192.168.1.11', 'doc3: /login from 192.168.1.11']
+
+[Kibana] requests per status code:
+  200: ## (2)
+  401: ## (2)
+  403: # (1)
+[Kibana] requests per IP: {'192.168.1.10': 2, '192.168.1.11': 2, '10.0.0.5': 1}

@@ -1,0 +1,12 @@
+One sample attack through every layer: STOPPED at 'Perimeter firewall'
+
+Configuration                           Attack success rate
+1 layer(s): Perimeter firewall          30.08%
+2 layer(s): IDS/IPS                     12.01%
+3 layer(s): Endpoint protection         4.00%
+4 layer(s): Application security        1.87%
+5 layer(s): Access control / MFA        0.40%
+6 layer(s): Data encryption             0.15%
+
+Best single layer (Access control / MFA) alone: 20.15% success
+Overlapping controls drive risk far lower than any single layer.

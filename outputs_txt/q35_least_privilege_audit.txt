@@ -1,0 +1,7 @@
+asha   Developer  OK
+ravi   Developer  EXCESS ACCESS
+        remove -> ['deploy_prod', 'manage_users']
+meena  HR         EXCESS ACCESS
+        remove -> ['read_logs']
+kiran  Auditor    OK
+        (note: role permissions not granted -> ['read_code'])

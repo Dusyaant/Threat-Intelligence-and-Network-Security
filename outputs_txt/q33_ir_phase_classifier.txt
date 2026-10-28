@@ -1,0 +1,6 @@
+Preparation      <- Run a tabletop exercise and train the IRT
+Identification   <- Analyst triages the SIEM alert and confirms the intrusion
+Containment      <- Isolate the infected host and block the C2 IP
+Eradication      <- Remove malware and patch the exploited server
+Recovery         <- Restore data from backups and return to production
+Lessons Learned  <- Hold a post-incident retrospective and update playbook

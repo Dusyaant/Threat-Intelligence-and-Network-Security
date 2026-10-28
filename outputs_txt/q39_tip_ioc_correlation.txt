@@ -1,0 +1,10 @@
+Ingested 5 raw lines -> 4 unique normalized IOCs
+  ip     185.220.101.7                           botnet C2
+  domain evil-update.com                         phishing
+  hash   d41d8cd98f00b204e9800998ecf8427e        trojan
+  url    http://bad.example/pay                  credential harvest
+
+Correlating against internal logs:
+  *** ALERT: IOC [domain] evil-update.com (phishing) matched -> 10:01 proxy: 10.0.0.5 GET http://evil-update.com/payload.exe
+  *** ALERT: IOC [ip] 185.220.101.7 (botnet C2) matched -> 10:03 fw: 10.0.0.9 -> 185.220.101.7:443 ALLOW
+  *** ALERT: IOC [hash] d41d8cd98f00b204e9800998ecf8427e (trojan) matched -> 10:04 edr: 10.0.0.5 file hash d41d8cd98f00b204e9800998ecf8427e created

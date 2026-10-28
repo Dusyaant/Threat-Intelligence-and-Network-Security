@@ -1,0 +1,12 @@
+  [OK ] Confidentiality Data at rest is encrypted
+  [OK ] Confidentiality Access limited to need-to-know
+  [BAD] Integrity       File integrity hashes verified
+  [OK ] Integrity       Changes are logged and signed
+  [OK ] Availability    Service has redundant failover
+  [BAD] Availability    Backups restore successfully
+  [BAD] Availability    DDoS protection enabled
+
+Violated principles:
+  Confidentiality intact
+  Integrity       VIOLATED -> File integrity hashes verified
+  Availability    VIOLATED -> Backups restore successfully; DDoS protection enabled

@@ -1,0 +1,6 @@
+Direction     <- The team defines intelligence requirements and priorities with stakeholders.
+Collection    <- Analysts gather indicators from OSINT sources and a honeypot.
+Processing    <- Raw logs are parsed and normalized into a common format.
+Analysis      <- Analysts correlate indicators and assess attribution of the campaign.
+Dissemination <- The team publishes a briefing and shares it with the SOC.
+Feedback      <- Stakeholders give feedback so the team can refine future reports.

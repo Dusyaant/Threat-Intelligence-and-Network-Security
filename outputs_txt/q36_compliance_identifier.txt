@@ -1,0 +1,4 @@
+PCI-DSS <- An e-shop storing cardholder data and processing payment card numbers
+HIPAA   <- A hospital system storing patient health records and insurance claims
+GDPR    <- A website collecting personal data of EU citizens with a consent banner
+SOX     <- Listed company's general ledger and financial reporting system with audit trail

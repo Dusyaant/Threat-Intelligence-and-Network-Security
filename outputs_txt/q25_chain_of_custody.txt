@@ -1,0 +1,3 @@
+Original chain      : VALID: unbroken hash chain and non-decreasing timestamps
+After tampering     : BROKEN at record 1: record content altered
+Out-of-order times  : BROKEN at record 1: timestamp goes backwards
